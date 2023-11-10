@@ -1,0 +1,23 @@
+.app {
+  font-family: 'Inter', sans-serif;
+
+  .naw {
+    background: #253237;
+  }
+
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 0 25px;
+  }
+
+  h1 {
+    padding: 30px;
+    font-family: Rounded Mplus 1c;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 24px;
+  }
+}

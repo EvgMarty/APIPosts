@@ -1,0 +1,15 @@
+@import '../styles/var.scss';
+
+::-webkit-scrollbar {
+  height: 8px;
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--black);
+}
+
+::-webkit-scrollbar-thumb {
+  background: #26292d;
+  border-radius: 6px;
+}

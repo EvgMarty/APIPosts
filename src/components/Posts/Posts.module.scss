@@ -1,0 +1,42 @@
+.postsWrapper {
+  width: 100%;
+  padding: 25px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 25px;
+}
+
+.fechError {
+  background: red;
+  padding: 15px;
+  border-radius: 6px;
+  max-width: 300px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+.loadWrap {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  gap: 5зч;
+  color: #253237;
+}
+
+.loader {
+  width: 30px;
+  height: 30px;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

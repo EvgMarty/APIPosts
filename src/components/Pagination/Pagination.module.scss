@@ -1,0 +1,24 @@
+.paginWrap {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 15px 0;
+}
+
+.paginNum {
+  width: 30px;
+  height: 30px;
+  background: #253237;
+  border: 1px solid #9db4c0;
+  padding: 5px;
+  text-align: center;
+
+  &.active {
+    opacity: 50%;
+  }
+
+  &:hover {
+    opacity: 50%;
+  }
+}
+
